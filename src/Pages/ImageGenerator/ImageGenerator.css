@@ -1,0 +1,39 @@
+.image-generator-button {
+  width: 100%;
+}
+
+.generated-image {
+  max-width: 100%; /* Define a largura máxima da imagem como 100% */
+  max-height: 100vh; /* Define a altura máxima da imagem como 100% da altura da tela */
+  object-fit: contain; /* Garante que a imagem se ajuste ao espaço disponível sem distorcer a proporção */
+}
+
+.rounded-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-icon-container {
+  width: 24px;
+  height: 24px;
+  margin-top: -10px; /* Ajuste de margem para centralizar verticalmente */
+  margin-left: -8px;
+}
+
+.spinner-animation {
+  animation: rotate 1s linear infinite; /* Adiciona a animação de rotação */
+  margin-top: -4px; /* Ajuste de margem para centralizar verticalmente */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

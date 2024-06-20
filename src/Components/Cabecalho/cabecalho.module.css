@@ -1,0 +1,36 @@
+/* \src\Components\cabecalho.module.css */
+.sidebar {
+    width: 150px; /* Aumentar a largura */
+    background-color: #333; /* Fundo cinza escuro */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logoItem {
+    margin-bottom: 100px; /* Ajuste de espaçamento para o emoji da logo */
+}
+
+.sidebarItem {
+    margin-bottom: 50px; /* Ajuste de espaçamento entre os itens */
+    display: flex;
+    align-items: center;
+}
+
+/* \src\Components\cabecalho.module.css */
+.sidebarItem a {
+    text-decoration: none; /* Remover a decoração do link */
+    border-bottom: 1px solid transparent; /* Substituir a linha azul por uma borda transparente */
+    box-shadow: none; /* Remover qualquer sombra */
+}
+
+.emoji {
+    font-size: 50px; /* Aumentar o tamanho do emoji */
+    color: #fff; /* Cor branca para os emojis */
+    cursor: pointer;
+}

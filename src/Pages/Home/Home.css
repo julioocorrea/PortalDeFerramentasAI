@@ -1,0 +1,43 @@
+.home-container {
+    display: flex;
+}
+
+.content-container {
+    flex: 1;
+    padding: 50px;
+    margin-left: 175px;
+    color: #333;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.tool-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tool-item {
+    margin: 0 40px;
+}
+
+.tool-item p {
+    font-size: 22px;
+}
+
+.tool-icon {
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
