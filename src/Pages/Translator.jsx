@@ -2,7 +2,7 @@ import React, { useState } from 'react'; // Importando React e o hook useState p
 import axios from 'axios'; // Importando axios para fazer requisições HTTP
 import { useNavigate } from 'react-router-dom'; // Importando useNavigate para navegação entre páginas
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importando o CSS do Bootstrap
-import Sidebar from '../Components/Cabecalho/index'; // Importando o componente Sidebar
+import Sidebar from '../Components/Cabecalho/Cabecalho'; // Importando o componente Sidebar
 
 function Translator() {
   const [inputText, setInputText] = useState(''); // Estado para armazenar o texto de entrada

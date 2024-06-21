@@ -1,5 +1,5 @@
 import React from 'react'; // Importação do React
-import Sidebar from '../../Components/Cabecalho/index'; // Importação do componente Sidebar
+import Sidebar from '../../Components/Cabecalho/Cabecalho'; // Importação do componente Sidebar
 import { FaImage, FaLanguage, FaTools } from 'react-icons/fa'; // Importação de ícones do React Icons
 import './Home.css'; // Importação do arquivo CSS para estilização
 

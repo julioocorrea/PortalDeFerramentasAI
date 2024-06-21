@@ -2,7 +2,7 @@ import React, { useState } from 'react'; // Importando o React e o hook useState
 import axios from 'axios'; // Importando o axios para fazer requisições HTTP
 import { Link } from 'react-router-dom'; // Importando o Link para navegação dentro da aplicação
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importando o CSS do Bootstrap
-import Sidebar from '../Components/Cabecalho/index'; // Importação do componente Sidebar
+import Sidebar from '../Components/Cabecalho/Cabecalho'; // Importação do componente Sidebar
 
 function CodeOptimizer() {
   // Definição de três estados utilizando o useState: instructions, code e optimizedCode
